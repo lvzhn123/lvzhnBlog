@@ -1,0 +1,22 @@
+package lvzhn.blog.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+import lvzhn.blog.serviceImpl.UserService;
+
+@Component
+public class ServiceFactory {
+	@Autowired
+	private static UserService userService;
+
+	public static UserService getUserService() {
+		return userService;
+	}
+
+	
+	public static void setUserService(UserService userService) {
+		ServiceFactory.userService = userService;
+	}
+
+}

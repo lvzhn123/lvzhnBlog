@@ -1,0 +1,12 @@
+package lvzhn.blog.webApp.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import lvzhn.blog.service.ServiceFactory;
+
+public class BaseController {
+
+	@Autowired
+	private ServiceFactory serviceFactory;
+
+}

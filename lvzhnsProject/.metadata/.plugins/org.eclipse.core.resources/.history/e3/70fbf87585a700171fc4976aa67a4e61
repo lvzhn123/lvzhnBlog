@@ -1,0 +1,20 @@
+package lvzhn.blog.webApp.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import lvzhn.blog.service.ServiceFactory;
+import lvzhn.blog.webContext.Context;
+
+public class BaseController {
+
+	@Autowired
+	private ServiceFactory serviceFactory;
+	
+	private Context context;
+	
+	private setContext(){
+		
+	}
+	
+
+}

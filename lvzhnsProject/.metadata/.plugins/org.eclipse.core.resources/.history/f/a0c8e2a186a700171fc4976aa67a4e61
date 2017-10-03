@@ -1,0 +1,5 @@
+package lvzhn.blog.enums;
+
+public enum userType {
+	administrator,visitor,writer
+}

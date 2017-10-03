@@ -1,0 +1,10 @@
+package lvzhn.blog.webContext;
+
+import org.apache.http.HttpResponse;
+import org.springframework.http.HttpRequest;
+
+public class Context {
+
+	private HttpServletRequest request;
+	private HttpServletResponse response;
+}

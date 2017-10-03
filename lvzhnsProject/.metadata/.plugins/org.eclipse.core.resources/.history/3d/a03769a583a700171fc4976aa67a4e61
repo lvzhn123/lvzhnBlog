@@ -1,0 +1,14 @@
+package lvzhn.blog.service;
+
+public class ServiceFactory {
+	private IService userService;
+
+	public IService getUserService() {
+		return userService;
+	}
+
+	@Autowrie
+	public void setUserService(IService userService) {
+		this.userService = userService;
+	}
+}

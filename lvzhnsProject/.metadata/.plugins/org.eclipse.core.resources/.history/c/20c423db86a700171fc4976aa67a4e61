@@ -1,0 +1,8 @@
+package lvzhn.blog.webContext;
+
+import lvzhn.blog.enums.Success;
+
+public class WebResponse {
+	private String success;
+	
+}

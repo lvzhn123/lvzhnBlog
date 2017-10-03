@@ -1,0 +1,21 @@
+package lvzhn.blog.serviceImpl;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import lvzhn.blog.entity.User;
+import lvzhn.blog.generalData.DynamicObject;
+import lvzhn.blog.service.IService;
+
+public class UserService implements IService {
+	public DynamicObject getUserInfo(User user) {
+		List<DynamicObject> list = new ArrayList<DynamicObject>();
+		
+		DynamicObject dynamicObject = new DyanmicObject();
+		dynamicObject.put("userName", user.getName());
+		dynamicObject.put("number", 1);
+		dynamicObject.put("childUser", );
+		return null;
+
+	}
+}

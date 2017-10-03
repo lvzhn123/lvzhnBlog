@@ -1,0 +1,5 @@
+package lvzhn.blog.webContext;
+
+public class WebResponse {
+
+}

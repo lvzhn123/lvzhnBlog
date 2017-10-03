@@ -1,0 +1,7 @@
+package lvzhn.blog.serviceImpl;
+
+import lvzhn.blog.service.IService;
+
+public class UserService implements IService {
+	
+}

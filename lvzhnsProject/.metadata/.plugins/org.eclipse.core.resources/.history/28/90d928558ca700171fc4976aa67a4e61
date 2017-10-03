@@ -1,0 +1,25 @@
+package lvzhn.blog.webApp.controller;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.ModelAttribute;
+
+import lvzhn.blog.service.ServiceFactory;
+import lvzhn.blog.webContext.Context;
+
+public class BaseController {
+
+	@Autowired
+	protected ServiceFactory serviceFactory;
+
+	protected Context context;
+
+	@ModelAttribute
+	public void setReqAndRes(HttpServletRequest request, HttpServletResponse response) {
+		this.context.setRequest(request);
+		this.context.setResponse(response);
+	}
+
+}

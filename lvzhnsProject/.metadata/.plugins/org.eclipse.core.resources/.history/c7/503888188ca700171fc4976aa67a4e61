@@ -1,0 +1,16 @@
+package lvzhn.blog.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+@component
+public class ServiceFactory {
+	private static IUserService userService;
+	public static IUserService getUserService() {
+		return userService;
+	}
+	
+	@Autowired
+	public void setUserService(IUserService userService) {
+		this.userService = userService;
+	}
+}

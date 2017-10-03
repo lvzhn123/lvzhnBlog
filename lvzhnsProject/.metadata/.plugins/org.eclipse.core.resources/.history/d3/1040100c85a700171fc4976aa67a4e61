@@ -1,0 +1,7 @@
+package lvzhn.blog.webContext;
+
+public class Context {
+
+	private HttpRequest request;
+	private HttpResponse response;
+}

@@ -1,0 +1,19 @@
+package lvzhn.blog.webContext;
+
+import lvzhn.blog.generalData.DynamicObject;
+
+public class WebResponse {
+	private String success;
+	
+	private DynamicObject data;
+	private String UserType;
+
+	public String getSuccess() {
+		return success;
+	}
+
+	public void setSuccess(String success) {
+		this.success = success;
+	}
+	
+}

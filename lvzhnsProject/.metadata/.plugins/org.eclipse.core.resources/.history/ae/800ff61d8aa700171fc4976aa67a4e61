@@ -1,0 +1,15 @@
+package lvzhn.blog.serviceImpl;
+
+import lvzhn.blog.entity.User;
+import lvzhn.blog.generalData.DynamicObject;
+import lvzhn.blog.service.IService;
+
+public class UserService implements IService {
+	public DynamicObject getUserInfo(User user) {
+		DynamicObject dynamicObject = new DyanmicObject();
+		dynamicObject.put("userName", user.getName());
+		
+		return null;
+
+	}
+}

@@ -1,0 +1,8 @@
+package lvzhn.blog.entity;
+
+import java.util.HashMap;
+
+public class DynamicObject extends HashMap {
+
+	
+}
